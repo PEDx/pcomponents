@@ -1,0 +1,170 @@
+/* function */
+
+.p-cb:after,
+.p-cbli li:after {
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
+  content: ".";
+}
+
+.p-cb,
+.p-cbli li {
+  zoom: 1;
+}
+
+.p-ib {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.p-dn {
+  display: none;
+}
+
+.p-db {
+  display: block;
+}
+
+.p-fl {
+  float: left;
+}
+
+.p-fr {
+  float: right;
+}
+
+.p-pr {
+  position: relative;
+}
+
+.p-prz {
+  position: relative;
+  zoom: 1;
+}
+
+.p-oh {
+  overflow: hidden;
+}
+
+.p-ff0 {
+  font-family: arial, \5b8b\4f53;
+}
+
+.p-ff1 {
+  font-family: "Microsoft YaHei", \5fae\8f6f\96c5\9ed1, arial, \5b8b\4f53;
+}
+
+.p-fs1 {
+  font-size: 12px;
+}
+
+.p-fs2 {
+  font-size: 14px;
+}
+
+.p-fwn {
+  font-weight: normal;
+}
+
+.p-fwb {
+  font-weight: bold;
+}
+
+.p-tal {
+  text-align: left;
+}
+
+.p-tac {
+  text-align: center;
+}
+
+.p-tar {
+  text-align: right;
+}
+
+.p-taj {
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.p-vam,
+.p-vama * {
+  vertical-align: middle;
+}
+
+.p-wsn {
+  word-wrap: normal;
+  white-space: nowrap;
+}
+
+.p-pre {
+  overflow: hidden;
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.p-wwb {
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.p-ti {
+  overflow: hidden;
+  text-indent: -30000px;
+}
+
+.p-ti2 {
+  text-indent: 2em;
+}
+
+.p-lhn {
+  line-height: normal;
+}
+
+.p-tdu,
+.p-tdu:hover {
+  text-decoration: underline;
+}
+
+.p-tdn,
+.p-tdn:hover {
+  text-decoration: none;
+}
+
+.p-toe {
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.p-csp {
+  cursor: pointer;
+}
+
+.p-csd {
+  cursor: default;
+}
+
+.p-csh {
+  cursor: help;
+}
+
+.p-csm {
+  cursor: move;
+}
+
+.p-usn {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
