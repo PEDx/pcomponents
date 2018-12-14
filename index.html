@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html style="font-size: 37.5px">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta name="format-detection" content="telephone=no, email=no" />
+  <title>
+    协议支付
+  </title>
+  <script>
+    window.onload = function () {
+      // 动态设置根元素 fontsize
+      setTimeout(function () {
+        var clientWidth = window.innerWidth || document.documentElement.clientWidth || 375;
+        document.getElementsByTagName('html')[0].style.fontSize = clientWidth / 10 + 'px';
+      })
+      // 禁止缩放
+      document.documentElement.addEventListener('touchstart', function (event) {
+        if (event.touches.length > 1) {
+          event.preventDefault();
+        }
+      }, false);
+      var lastTouchEnd = 0;
+      document.documentElement.addEventListener('touchend', function (event) {
+        var now = Date.now();
+        if (now - lastTouchEnd <= 300) {
+          event.preventDefault();
+        }
+        lastTouchEnd = now;
+      }, false);
+    }
+  </script>
+</head>
+
+<body>
+  <div id="app">
+    <!-- shell -->
+  </div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
